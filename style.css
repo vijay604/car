@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: linear-gradiant(rgb(163, 163, 163));
+}
+.clas{
+    background: orange;
+    text-align: center;
+}
+.clas ul{
+    list-style: none;
+    display: inline-flex;
+
+}
+.clas ul li {
+    width: 120px;
+    padding: 15px;
+    margin: 15px;
+}
+.content{
+    width: 90%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.info,.for{
+    width: 48%;
+}
+
+.for img{
+    width: 100%;
+    height: 100%;
+}
+.row .info{
+    margin-top: 10%;
+}
+.row .info h1{
+    font-size: 4rem;
+}
+.row .info p{
+    font-size: 20px;
+}
+.row .info button{
+    margin-top: 3%;
+    padding: 5px 10px;
+    transition: 2s;
+}
+.row .info button:hover{
+    background: orange;
+    cursor: pointer;
+}
+
+/* .for{
+    margin-top: 14%;
+    color: rgb(12, 12, 12);
+    max-width: 600px;
+    margin-left: 8%;
+}
+.for h1{
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: ;
+    line-height: 45px;
+}
+.for button{
+     margin-top: 3%;
+    margin-left:5% ;
+    border-radius: 5px;
+    border-color: aqua;
+    box-sizing: content-box;
+    padding: 3px;
+    box-shadow: 15px;
+    border-style: none;
+   
+}
+.for img{
+    width: 600px;
+    height: 100%;
+    margin-left: 85%;
+    margin-bottom: 109%;
+} */
